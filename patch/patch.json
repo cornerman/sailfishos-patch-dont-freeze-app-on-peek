@@ -1,0 +1,8 @@
+{
+    "name": "Don't freeze app on peek",
+    "description": "Do not freeze the pixmap of the current app when peeking at home",
+    "category": "homescreen",
+    "infos": {
+        "maintainer": "cornerman"
+    }
+}
