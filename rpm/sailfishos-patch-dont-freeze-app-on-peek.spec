@@ -1,13 +1,13 @@
 Name: sailfishos-patch-dont-freeze-app-on-peek
 BuildArch: noarch
 Summary: Do not freeze the pixmap of the current app when peeking at home
-Version: 0.0.1
+Version: 0.0.2
 Release: 1
 Group: System/Patches
 License: TODO
 Source0: %{name}-%{version}.tar.xz
 Requires: patchmanager
-Requires: sailfish-version >= 2.0.1
+Requires: sailfish-version >= 2.0.2
 
 %description
 %{summary}

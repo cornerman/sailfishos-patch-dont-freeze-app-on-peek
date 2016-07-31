@@ -1,22 +1,13 @@
 diff --git a/usr/share/lipstick-jolla-home-qt5/compositor.qml b/usr/share/lipstick-jolla-home-qt5/compositor.qml
-index 1a8e7a5..92e47d1 100644
+index 2a3c9cc..2a0abe0 100644
 --- a/usr/share/lipstick-jolla-home-qt5/compositor.qml
 +++ b/usr/share/lipstick-jolla-home-qt5/compositor.qml
-@@ -808,7 +808,7 @@ Compositor {
-                     ShaderEffectSource {
-                         id: transitionOptimizerFg
-                         anchors.fill: parent
--                        live: false
-+                        live: true
-                         visible: false
-                     }
-                     ShaderEffect {
-@@ -821,7 +821,7 @@ Compositor {
-                     id: transitionOptimizerCache
-                     anchors.fill: parent
-                     sourceItem: transitionOptimizerContent
--                    live: false
-+                    live: true
-                 }
-             }
+@@ -851,7 +851,7 @@ Compositor {
  
+                 sourceItem: used ? transitioningLayer.snapshotSource : null
+                 hideSource: true
+-                live: false
++                live: true
+ 
+                 visible: used || transitionOptimizerFadeOut.running
+                 opacity: 0
